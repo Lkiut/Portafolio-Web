@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Leidy Correa</title>
+    <link rel="shortcut icon" href="imagenes/logo.png"/>
+    <link rel="stylesheet" href="stylo.css">
+</head>        
+<body>
+     <!-- Menu Inicial -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <img src="imagenes/logo header.png" alt="logoleidy">
+                <!--<a href="#">Leidy</a>-->
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="about"onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="skill" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>  
+                    <li><a href="contatos" onclick="seleccionar()">CONTANTOS</a></li> 
+                </ul>
+            </nav>
+
+            <div class="nav-responsive"  onclick="seleccionar()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+ <!-- Inicio -->
+     <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/inicio yo.png" alt="#">
+            </div>
+            <h1><strong>Leidy Correa</strong></h1>  
+            <h2>Diseñadora Industrial - Diseño UX/UI</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/lkorrea.69/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/l-korrea-design-company/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.behance.net/LeidyKorres" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                <a href="https://github.com/Lkiut" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.link/9i5z4q" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>    
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Leidy Correa.</span> diseñadora industrial con 2 años de experiencia en la coordinación del área de diseño y creación de contenido RRSS. Me apasiona el diseño UX y la creación de páginas web, y estoy incursionando en el mundo de la programación para mejorar aún más mis habilidades. Soy una profesional creativa e innovadora, y estoy ansiosa de poder trabajar con ustedes.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                     <h3>Datos Personales</h3>
+                    <ul>
+                         <li>
+                            <strong>Cumpleaños</strong>
+                             01/07/1999
+                         </li>
+                         <li>
+                            <strong>WhatsApp</strong>
+                            +57 322 843 5099
+                        </li>
+                        <li>
+                            <strong>Gmail</strong>
+                            lkcompany@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.leidycorrea.com
+                        </li>
+                        <li>
+                            <strong>Profesión</strong>
+                            Diseñadora Industrail
+                        </li>
+                    </ul>    
+                </div>
+                
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-dice"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>PELICULAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+                            <span>TENNIS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-kitchen-set"></i>
+                            <span>COCINAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-pen-nib"></i>
+                            <span>DISEÑO</span>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <a href="imagenes/Leidy correa - diseñadora - Cv - Portafolio.pdf" download="Portafolio-CV-Leidy Correa S" class="download-link" target="_blank">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+            
+        </div>        
+    </section>    
+
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Software</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Illustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adobe Xd / Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- SECCION CURRICULUM -->
+     <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Diseño Industrail </h4>
+                        <span class="casa">Universidad de Desarrollo e Investigación (UDI)</span>
+                        <span class="fecha">20018 - 2022</span>
+                        <p>Fui ganadora de tres premios a mejor diseño en diferentes semestres de la carrera.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diseño UX/Ui</h4>
+                        <span class="casa">Coursera</span>
+                        <span class="fecha">2022</span>
+                        <p>Realice la carrera de diseño ux en la plataforma de estudio, siendo certificada por Google.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Programación Front-End</h4>
+                        <span class="casa">One Oracle Next Educaction - Alura Latam </span>
+                        <span class="fecha">2023</span>
+                        <p>Especialización en programación web Front-End avalado por Alura Latam</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Coordinadora de Diseño</h4>
+                        <span class="casa">INJOYAS / VANGIO</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Como líder del equipo de diseño y contenido en la creación y producción de material gráfico y audiovisual para la promoción de productos en diversas plataformas digitales, encabezando estratégicamente campañas publicitarias. Mi contribución fundamental se centró en la concepción y gestión de las interfaces web para INJOYAS y VANGIO, asegurando una presentación impecable de catálogos y productos. Además, realice las sesiones fotografía, edición y producción de contenido para los catálogos semanales de INJOYAS, mientras asumía la responsabilidad integral en la conceptualización y desarrollo de colecciones, aplicando mi profundo conocimiento en arte visual para generar ideas pioneras.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Diseñador de Marca y Estratega Visual </h4>
+                        <span class="casa">WABI</span>
+                        <span class="fecha">2023 - 2024 (Freelance)</span>
+                        <p>Creación de elementos esenciales para la identidad de la marca, tales como el diseño del logo y el branding. Mi labor incluye el desarrollo de una estrategia visual coherente, especialmente en plataformas como Instagram, donde gestiono y diseño el contenido del feed. Además, me encargo de conceptualizar y ejecutar ideas visuales que reflejen la esencia de la marca en cada temporada o campaña, garantizando una representación visual consistente y atractiva.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>"Diseñador de Marketing Digital y Estratega de Contenido Visual</h4>
+                        <span class="casa">SERGAS S.A.S</span>
+                        <span class="fecha">2020 - 2023 (Freelance)</span>
+                        <p>Dirigi la creación de catálogos de productos y flyers publicitarios con el objetivo de fortalecer la presencia de la marca en diversas plataformas de venta online. Creación de elementos graficos para la exposición de los productos, optimizando tanto el contenido como las imágenes. Adicional a ello se realizo la fachada del punto de venta.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCION PORTAFOLIO -->
+     <!--<section id="container" class="container">
+        <div class="card-container">
+            <article class="card_articulo">
+                <img src="imagenes/Mesa de trabajo 1MADRE.png" alt="imagen" class="card_img">
+
+                <div class="cart_data">
+                    <span class="card_descrip">Tote Bags con propósito, estampados que reflejan identidad y estilo. 
+                        Apoyamos causas sociales y ecológicas. Más que una marca, una 
+                        forma de expresión. Diseño fresco y polivalente. Prácticos, 
+                        minimalistas y esenciales para llevar lo mejor de ti.</span>
+                    <h2 class="card_titulo">WABI - RRSS & Branding </h2>
+                    <h3 class="card_elogan">“Wabi” La elegante belleza de la humilde simplicidad </h3>
+                    <a href="#" class="card_buttom">Read More</a>
+                </div>
+            </article>
+            <article class="card_articulo">
+                <img src="imagenes/injoyas.jpg" alt="imagen" class="card_img">
+
+                <div class="cart_data">
+                    <span class="card_descrip">Una propuesta de joyería personalizable, a un precio accequible y de excelente calidad y diseño. Es una marca que brinda su 
+                        conocimiento y apoyo en la creación de joyas al cliente directamente, para que este pueda escoger y crear su joya ideal con las 
+                        mejores materias primas: oro, piedras preciosas y cubic zirconia, junto a la mejor asesoría</span>
+                    <h2 class="card_titulo">INJOYAS - RRSS - identidad de redes - Diseño UX/UI</h2>
+                    <h3 class="card_elogan">Joyería Fina </h3>
+                    <a href="#" class="card_buttom">Read More</a>
+                </div>
+            </article>
+            <article class="card_articulo">
+                <img src="imagenes/2.png" alt="imagen" class="card_img">
+
+                <div class="cart_data">
+                    <span class="card_descrip">La creación de la página web fue crucial para llevar a VANGIO 
+                        al mundo digital, permitiendo a los clientes explorar y comprar 
+                        productos en línea desde cualquier lugar, mientras se muestra la 
+                        identidad y los valores de la marca.</span>
+                    <h2 class="card_titulo">VANGIO - RRSS - Diseño UX/UI</h2>
+                    <h3 class="card_elogan">Custom-Made Jewerly </h3>
+                    <a href="#" class="card_buttom">Read More</a>
+                </div>
+            </article>
+            <article class="card_articulo">
+                <img src="imagenes/descarga.jpeg" alt="imagen" class="card_img">
+
+                <div class="cart_data">
+                    <span class="card_descrip">Creación de decoración y moviliario para habitaciones de bebes y niños. Diseños modulares y faciles de 
+                    armar en el hogar, su diseño modular fue pensado tambien para su embalage y emvio nacional, aprovechando su espacio y bajar los 
+                    riesgos de daños en camino al destino.</span>
+                    <h2 class="card_titulo">GUGU - Diseño de Productos </h2>
+                    <h3 class="card_elogan">Construye su Mundo</h3>
+                    <a href="#" class="card_buttom">Read More</a>
+                </div>
+            </article>
+        </div>
+
+
+
+     </section>-->
+
+
+    <!-- SECCION SERVICOS -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="imagenes/2.png" alt="">
+                    <div class="overlay">
+                        <h3>Paginas Web</h3>
+                        <p>Diseño UX/UI</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/3.png" alt="">
+                    <div class="overlay">
+                        <h3>Marca Personales/Empresarial</h3>
+                        <p>Branding de Marca </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/1.png" alt="">
+                    <div class="overlay">
+                        <h3>Feed Instragram</h3>
+                        <p>Diseño Visual y conceptual</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/4.png" alt="">
+                    <div class="overlay">
+                        <h3>Catálogos productos</h3>
+                        <p>Diseño Editorial</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/5.png" alt="">
+                    <div class="overlay">
+                        <h3>Fachadas Corpotativas </h3>
+                        <p>Diseño de Espacios Comercial </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/6.png" alt="">
+                    <div class="overlay">
+                        <h3>Productos Decorativos</h3>
+                        <p>diseño de producto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <form action="https://formsubmit.co/lkcompany20@gmail.com" method="POST">
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <label for="name">Tú Nombre</label>
+                    <input type="text" placeholder="Tú Nombre">
+
+                    <label for="telefono">Número telefónico</label>
+                    <input type="text" placeholder="Número telefónico">
+
+                    <label for="email">Dirección de correo</label>
+                    <input type="text" placeholder="Dirección de correo">
+
+                    <label for="subject">Asunto</label>
+                    <input type="text" placeholder="Asunto">
+
+                    <label for="coments">Mensaje</label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            </form>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+                <!-- fondo contactos -->
+                <div class="col">
+                    <img src="imagenes/map rep.png" width="" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Colombia, Santander
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Escribeme: 3228435099
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Gmail: lkcompany20@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/lkorrea.69/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/l-korrea-design-company/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.behance.net/LeidyKorres" target="_blank"><i class="fa-brands fa-behance"></i></a>
+            <a href="https://github.com/Lkiut" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://wa.link/9i5z4q" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
